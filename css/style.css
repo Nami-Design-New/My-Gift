@@ -411,7 +411,6 @@ nav .log-btn {
   justify-content: center;
   gap: 50px;
   position: relative;
-  padding: 0 40px;
 }
 .container .usage .cards::before {
   content: "";
@@ -552,7 +551,7 @@ footer .row .logo img {
   max-width: 200px;
 }
 footer .row p {
-  width: min(100% - 16px, 600px);
+  width: min(100%, 600px);
   text-align: center;
   font-weight: 600;
 }
